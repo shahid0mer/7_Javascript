@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let sum = 0;
+
+            let userInput = prompt("Enter the number between 0 & 1 million")
+        if(userInput>=1 && userInput<=1000000){
+            for(let i=0;i<=userInput;i++)
+            {
+                sum=sum+i
+            }
+            alert("sum of numbers upto" + " " + userInput + " " + "is" + " " + sum )
+        }
+    else
+    {
+        alert("invalid")
+    }
+    </script>
+</body>
+</html>
